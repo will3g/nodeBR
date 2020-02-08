@@ -1,0 +1,10 @@
+{
+    "name": "tempo",
+    "version": "1.0",
+    "description": "Whorkshop node",
+    "manifest_version": 2,
+    "permissions": ["declarativeContent", "storage", "tabs", "activeTab"],
+    "browser_action": {
+      "default_popup": "app/build/index.html"
+    }
+}
