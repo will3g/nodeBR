@@ -3,6 +3,18 @@ import React, {useEffect, useState} from 'react';
 const API_KEY = 'c5a45184b7fb858bd636524b08216b71'
 const API_URI = `http://api.openweathermap.org/data/2.5/weather?appid=${API_KEY}&units=metric`
 
+// chrome.app.runtime.onLaunched.addListener(function (launchData) {
+//   chrome.app.window.create('app/build/index.html', {
+//     resizable: false,
+//     outerBounds: {
+//       width: 600,
+//       height: 500
+//     },
+//   }, function (win) {
+//     win.contentWindow.launchData = launchData
+//   })
+// })
+
 const buildLatLntQuery = (navigator) => {
   return new Promise((resolve) => {
     navigator.geolocation.getCurrentPosition(position => {
@@ -45,7 +57,7 @@ async function init () {
   return (
     <div className="container">
       <h1 className="container-title">
-        Tempo
+        Tempo SP
       </h1>
       <div className="containerInfo">
         <div className="infoTempo">

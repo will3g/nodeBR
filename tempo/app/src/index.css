@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #0051ff;
 }
 
 .container {
-    width: 600px;
-    height: 500px;
+    width: 220px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     font-weight: 700;
@@ -16,16 +17,14 @@
 
 .container-title {
     font-size: 30px;
+    margin-top: 20px;
     justify-content: center;
-    color: tomato;
+    color: #fff;
 }
 
 .containerInfo {
     display: flex;
-    width: 600px;
-    align-items: flex-end;
-    margin-left: 80%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .infoTempo {
@@ -36,12 +35,12 @@
 
 .infoTempo > span {
     font-size: 20px;
-    color: #999;
+    color: #fff;
     font-weight: 300;
 }
 
 .infoAtual {
     margin-left: 10px;
     font-size: 35px;
-    color: #444;
+    color: #ffd500;;
 }
