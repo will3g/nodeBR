@@ -1,0 +1,15 @@
+{
+    "name": "Tempo agora",
+    "version": "1.0",
+    "description": "Whorkshop node",
+    "manifest_version": 2,
+    "icons": { 
+      "16": "icon1.png",
+      "48": "icon1.png",
+     "128": "icon1.png" },
+    "permissions": ["geolocation"],
+    "content_security_policy": "script-src 'self' 'sha256-PK0+oytTbAxJr7VkjNUTdksxXhVyVzLKR6UrHreRNAA='",
+    "browser_action": {
+        "default_popup": "./index.html"
+      }
+}
